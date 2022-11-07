@@ -1,0 +1,8 @@
+[build]
+target = "mos-c64-none"
+
+[target.mos-c64-none]
+runner = ["/opt/homebrew/bin/x64sc", ""]
+
+[unstable]
+build-std = ["core", "alloc"]
